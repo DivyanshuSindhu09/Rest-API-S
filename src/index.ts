@@ -1,1 +1,1 @@
-console.log("welcome to ts apis")
+console.log("welcome to ts apis");

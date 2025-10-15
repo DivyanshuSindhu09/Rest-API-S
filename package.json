@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon src/index.ts",
+    "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +20,13 @@
   },
   "homepage": "https://github.com/DivyanshuSindhu09/Rest-API-S#readme",
   "devDependencies": {
+    "@eslint/js": "^9.37.0",
     "@types/node": "^24.7.2",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1"
   }
 }
