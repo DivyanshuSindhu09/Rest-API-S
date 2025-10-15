@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev" : "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,9 +14,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/DivyanshuSindhu09/Rest-API-S/issues"
   },
-  "homepage": "https://github.com/DivyanshuSindhu09/Rest-API-S#readme"
+  "homepage": "https://github.com/DivyanshuSindhu09/Rest-API-S#readme",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }
